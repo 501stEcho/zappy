@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+
+import trantor_handler as th
+import argparse
+import utils.Constant as c
+
+parser = argparse.ArgumentParser(add_help=False)
+
+parser._add_action(argparse._HelpAction(
+    option_strings=['-help'],
+    help='USAGE: ./zappy_ai -p port -n name -h machine\nport is the port number\nname is the name of the team\nmachine is the name of the machine; localhost by default'
+))
+
+parser.add_argument("-p", help="is the port number",type=int, default=4242,  metavar='PORT')
+parser.add_argument("-n", help="is the name of the team", type=str, default="pouet",  metavar='NAME')
+parser.add_argument("-h", help="is the name of the machine; localhost by default", type=str,default="localhost",  metavar='HOST')
+
+
+arg = parser.parse_args()
+print("ARG IS : ", arg.n)
+th.handler_trantor.create_trantor(arg.p, arg.h, arg.n)
+print("IA STARTED")

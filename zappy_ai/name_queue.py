@@ -1,0 +1,1 @@
+TEAMNAME = "pouet"

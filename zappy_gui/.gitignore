@@ -1,0 +1,6 @@
+zappy_gui
+*.o
+*.d
+Obj
+vg*
+TestsObj
