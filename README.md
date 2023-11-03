@@ -143,9 +143,16 @@ During the incantation, the participants can not make any action until the end o
 
 At the end of the incantation, the exact quantity of resources needed by the rite are consumed.
 
+## Contributors
+
+**Server**: [@Arthur Delbarre](https://github.com/ArthurDelbarre), [@Joshua Brionne](https://github.com/izimio) \
+**GUI**: [@Mathias André](https://github.com/MathiDEV), [@Paul Laban](https://github.com/501stEcho) \
+**AI**: [Valentin Nouri](https://github.com/vavarier), [@Justin Duc](https://github.com/Just1truc)
+
 ## Screenshots
 
 ![tile data](screenshots/tile_data.png)
 ![character data](screenshots/character_data.png)
 ![broadcast](screenshots/broadcast.png)
 ![top view](screenshots/topview.png)
+
